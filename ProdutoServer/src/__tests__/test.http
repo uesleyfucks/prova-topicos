@@ -1,0 +1,31 @@
+### Listar
+GET http://localhost:1234/produto/listar
+
+
+### BuscarPorCodigoBarras
+GET http://localhost:1234/produto/buscar/3
+
+
+### Cadastrar Requisisão correta
+POST http://localhost:1234/produto/cadastrar
+Content-Type: application/json
+
+{
+    "nome": "cafe",
+    "codigoBarras": "98999",
+    "preco": 50
+}
+
+### Remover
+DELETE http://localhost:1234/produto/remover/98999
+
+### Editar
+PUT http://localhost:1234/produto/alterar/608c0d54a9e21d41c85a9c01
+Content-Type: application/json
+
+{
+    "nome": "33eeee",
+    "codigoBarras": "2222",
+    "preco": 50
+}
+
