@@ -13,6 +13,6 @@ app.use(cors());
 app.use(express.json());
 app.use(router);
 
-app.listen(3000, () => {
-    console.log("O servidor esta rodando na porta 3000")
+app.listen(1234, () => {
+    console.log("O servidor esta rodando na porta 1234")
 });
