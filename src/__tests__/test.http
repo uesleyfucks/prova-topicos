@@ -1,13 +1,13 @@
 ### Listar
-GET http://localhost:1234/produto/listar
+GET http://localhost:3000/produto/listar
 
 
 ### BuscarPorCodigoBarras
-GET http://localhost:1234/produto/buscar/3
+GET http://localhost:3000/produto/buscar/3
 
 
 ### Cadastrar Requisisão correta
-POST http://localhost:1234/produto/cadastrar
+POST http://localhost:3000/produto/cadastrar
 Content-Type: application/json
 
 {
@@ -17,10 +17,10 @@ Content-Type: application/json
 }
 
 ### Remover
-DELETE http://localhost:1234/produto/remover/98999
+DELETE http://localhost:3000/produto/remover/98999
 
 ### Editar
-PUT http://localhost:1234/produto/alterar/608c0d54a9e21d41c85a9c01
+PUT http://localhost:3000/produto/alterar/608c0d54a9e21d41c85a9c01
 Content-Type: application/json
 
 {
